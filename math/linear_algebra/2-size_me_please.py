@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 """
 This module calculate a shape of a matrix
-matrix_shape
 """
 
 
 def matrix_shape(matx):
+    """Function that do the work"""
     grade = 0
     for bracket in str(matx):
         if bracket == '[':
