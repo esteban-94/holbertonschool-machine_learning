@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 def matrix_shape(matx):
     matx_leng = []
     try:
