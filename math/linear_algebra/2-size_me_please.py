@@ -1,4 +1,7 @@
 #!/usr/bin/env python3
+"""
+This module calculate a shape of a matrix
+"""
 def matrix_shape(matx):
     grade = 0
     for bracket in str(matx):
