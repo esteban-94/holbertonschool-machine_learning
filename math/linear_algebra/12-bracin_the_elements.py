@@ -7,5 +7,5 @@ and division of two matrices
 
 def np_elementwise(mat1, mat2):
     """Function that do the work"""
-    return (np.add(mat1, mat2),np.subtract(mat1, mat2)
-            ,np.multiply(mat1, mat2),np.divide(mat1, mat2))
+    return (add(mat1, mat2),subtract(mat1, mat2)
+            ,multiply(mat1, mat2),divide(mat1, mat2))
