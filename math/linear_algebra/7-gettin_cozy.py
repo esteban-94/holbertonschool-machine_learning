@@ -8,7 +8,7 @@ def cat_matrices2D(mat1, mat2, axis=0):
     """Function that do the work"""
     new_mat = []
     if (axis == 0 and len(mat1[0]) == len(mat2[0])) or\
-    (axis == 1 and len(mat1) == len(mat2)):
+        (axis == 1 and len(mat1) == len(mat2)):
         if axis == 0:
             new_mat = [row[:] for row in mat1]
             for idx_row_mat2 in range(len(mat2)):
