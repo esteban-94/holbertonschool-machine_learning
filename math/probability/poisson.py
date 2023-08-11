@@ -75,7 +75,7 @@ class Poisson:
 
             @k: is the number of "successes"
 
-            Return: the CDF value for k
+            Return: the CDF value for k 
         """
         if not isinstance(k, int):
             k = int(k)
