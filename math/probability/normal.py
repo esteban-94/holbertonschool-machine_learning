@@ -77,7 +77,7 @@ class Normal:
         pi = 3.1415926536
         mean = self.mean
         stddev = self.stddev
-        return ((1 / (stddev * pow((2 * pi) ** (1 / 2)))) * e ** (
+        return ((1 / (stddev * ((2 * pi) ** (1 / 2)))) * e ** (
             (-1 / 2) * ((x - mean) / stddev) ** 2))
 
     def cdf(self, x):
