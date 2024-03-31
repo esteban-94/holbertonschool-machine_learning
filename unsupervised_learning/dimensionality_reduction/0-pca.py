@@ -27,4 +27,4 @@ def pca(X, var=0.95):
     _, s, vh = np.linalg.svd(X)
     r = np.argmax(np.cumsum(s) > np.sum(s) * var)
     W = vh[:r + 1].transpose()
-    return
+    return W
